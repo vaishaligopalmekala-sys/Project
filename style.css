@@ -768,226 +768,89 @@ nav ul li ul li a:hover {
   color: #ddd;
 }
 
-.sec1 {
-  text-align: center;
-  color: #f96e63;
+.travel-offer {
   padding-top: 100px;
-}
-
-.sec1head {
   text-align: center;
-  color: rgb(2, 2, 59);
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
-.lugicon2 {
-  color: #00a3e0;
-  padding-left: 650px;
-  padding-bottom: 50px;
+.offer-subtitle {
+  color: #e74c3c;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding-bottom: 30px;
 }
 
-.images {
+.offer-title {
+  font-size: 30px;
+  color: #0a2a5c;
+  margin-bottom: 30px;
+}
+
+.offer-container {
   display: flex;
-  justify-content: space-between;
-  gap: 5px;
+  justify-content: center;
+  gap: 40px;
   flex-wrap: wrap;
-  padding: 70px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
-.card {
-  position: relative;
-  background: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+.offer-card {
+  outline: 10px solid white;
   width: 300px;
-  height: 500px;
-  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  background: #000;
+  position: relative;
 }
 
-.star {
+.offer-card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  filter: brightness(50%);
+}
+
+.card-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  text-align: left;
+}
+
+.card-content h5 {
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.card-content p {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s linear;
+  cursor: pointer;
+}
+
+.card-content p:hover{
+  color: #00a0c8;
+}
+
+.ribbon {
   position: absolute;
   top: 15px;
-  right: 10px;
-  color: white;
-}
-
-.card img {
-  width: 100%;
-  height: 400px;
-  object-fit: fill;
-  padding-left: 10px;
-  padding-right: 20px;
-  padding-top: 10px;
-}
-
-.card h3 {
-  font-size: 16px;
-  margin: 10px 0 5px;
-  transition: color 0.3s ease;
-}
-
-.card h3:hover {
-  color: #f96e63;
-  cursor: pointer;
-}
-
-.card p {
-  color: #0073b1;
-  font-size: 14px;
-  padding-top: 10px;
-  margin-bottom: 10px;
-  cursor: pointer;
-}
-
-.destbtn {
-  background-color: #f96e63;
-  margin-left: 650px;
-  padding: 20px 20px;
-  color: white;
-  border: none;
-  text-align: center;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.destbtn:hover {
-  background-color: #00a3e0;
-}
-
-.about-section {
-  display: flex;
-  justify-content: space-between;
-  gap: 50px;
-  padding-top: 100px;
-}
-
-.about-left {
-  display: flex;
-  flex-direction: column;
-  margin-left: 200px;
-}
-
-.image-top {
-  position: relative;
-  margin-left: 250px;
-  width: 350px;
-  padding-bottom: 10px;
-}
-
-.image-top img {
-  width: 100%;
-  height: 250px;
-  display: block;
-}
-
-.info-box {
-  z-index: 4;
-  position: absolute;
-  top: 20px;
-  left: -200px;
-  background: #00a0c8;
-  color: white;
-  outline: 10px solid white;
-  padding: 20px;
-  width: 180px;
-  height: 250px;
-  text-align: center;
-}
-
-.info-box h3 {
-  margin: 0 0 10px;
+  right: -35px;
+  background: #00aef0;
+  color: #fff;
+  font-size: 12px;
   font-weight: bold;
-  font-size: 30px;
-}
-
-.info-box button {
-  background: #ff5e5e;
-  border: none;
-  padding: 10px 12px;
-  color: white;
-  cursor: pointer;
-  margin-top: 30px;
-  font-size: 15px;
-  transition: background-color 0.3s ease;
-}
-
-.info-box button:hover {
-  background-color: #00a3e0;
-}
-
-.image-bottom {
-  display: flex;
-  gap: 10px;
-  padding-left: 0%;
-  margin-top: 30px;
-  margin-right: 10px;
-}
-
-.image-bottom1 img {
-  z-index: 3;
-  width: auto;
-  height: auto;
-  position: absolute;
-  margin-left: 235px;
-  outline: 10px solid white;
-}
-
-.image-bottom2 img {
+  padding: 5px 40px;
+  transform: rotate(45deg);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   z-index: 2;
-  width: auto;
-  height: 350px;
-  position: absolute;
-  margin-left: 0;
-}
-
-.about-right {
-  flex: 1;
-  margin-right: 100px;
-}
-
-.section-label {
-  color: #ff5e5e;
-  margin-bottom: 30px;
-}
-
-.about-right h2 {
-  font-size: 40px;
-  margin-bottom: 40px;
-}
-
-.lugicon3 {
-  color: #00a3e0;
-  margin-bottom: 50px;
-}
-
-.written {
-  padding-top: 30px;
-}
-
-.feature {
-  display: flex;
-  gap: 15px;
-  align-items: flex-start;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.righticon {
-  width: 100px;
-  height: 60px;
-  background-color: #ff5c5c;
-  color: solid black;
-}
-
-.comlogo { 
-  display: flex;
-  gap: 90px;
-  margin-left: 150px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width: 200px;
-  height: 100px;
 }
 
 @media (max-width: 1440px) {
