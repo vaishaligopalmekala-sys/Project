@@ -201,16 +201,16 @@ nav ul li ul li a:hover {
 }
 
 .buy-now {
-  background: #ff5c5c;
-  color: white;
-  font-weight: bold;
-  font-size: 13px;
-  padding: 8px 15px;
-  border: none;
-  margin-right: 150px;
-  cursor: pointer;
-  margin-left: 20px;
-  transition: background-color 0.3s ease;
+    background: #ff5c5c;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 8px 15px;
+    border: none;
+    margin-right: 400px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: background-color 0.3s ease;
 }
 
 .buy-now:hover {
@@ -286,8 +286,8 @@ nav ul li ul li a:hover {
 
 .formfill {
   position: absolute;
-  top: 30%;
-  right: 21%;
+  top: 30%;          
+  right: 20%;       
   background-color: #0793b5;
   padding: 30px;
   max-width: 300px;
@@ -300,13 +300,13 @@ nav ul li ul li a:hover {
   display: block;
   color: white;
   font-size: 14px;
-  margin-top: 10px;
 }
 
 .formfill input {
   width: 86%;
   padding: 20px;
-  margin-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 30px;
   border: none;
   font-size: 14px;
 }
@@ -766,4 +766,333 @@ nav ul li ul li a:hover {
 .package-item p {
   font-size: 14px;
   color: #ddd;
+}
+
+.sec1 {
+  text-align: center;
+  color: #f96e63;
+  padding-top: 100px;
+}
+
+.sec1head {
+  text-align: center;
+  color: rgb(2, 2, 59);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.lugicon2 {
+  color: #00a3e0;
+  padding-left: 650px;
+  padding-bottom: 50px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  flex-wrap: wrap;
+  padding: 70px;
+}
+
+.card {
+  position: relative;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+}
+
+.star {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  color: white;
+}
+
+.card img {
+  width: 100%;
+  height: 400px;
+  object-fit: fill;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.card h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+  transition: color 0.3s ease;
+}
+
+.card h3:hover {
+  color: #f96e63;
+  cursor: pointer;
+}
+
+.card p {
+  color: #0073b1;
+  font-size: 14px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.destbtn {
+  background-color: #f96e63;
+  margin-left: 650px;
+  padding: 20px 20px;
+  color: white;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.destbtn:hover {
+  background-color: #00a3e0;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding-top: 100px;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+
+.image-top {
+  position: relative;
+  margin-left: 250px;
+  width: 350px;
+  padding-bottom: 10px;
+}
+
+.image-top img {
+  width: 100%;
+  height: 250px;
+  display: block;
+}
+
+.info-box {
+  z-index: 4;
+  position: absolute;
+  top: 20px;
+  left: -200px;
+  background: #00a0c8;
+  color: white;
+  outline: 10px solid white;
+  padding: 20px;
+  width: 180px;
+  height: 250px;
+  text-align: center;
+}
+
+.info-box h3 {
+  margin: 0 0 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.info-box button {
+  background: #ff5e5e;
+  border: none;
+  padding: 10px 12px;
+  color: white;
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.info-box button:hover {
+  background-color: #00a3e0;
+}
+
+.image-bottom {
+  display: flex;
+  gap: 10px;
+  padding-left: 0%;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.image-bottom1 img {
+  z-index: 3;
+  width: auto;
+  height: auto;
+  position: absolute;
+  margin-left: 235px;
+  outline: 10px solid white;
+}
+
+.image-bottom2 img {
+  z-index: 2;
+  width: auto;
+  height: 350px;
+  position: absolute;
+  margin-left: 0;
+}
+
+.about-right {
+  flex: 1;
+  margin-right: 100px;
+}
+
+.section-label {
+  color: #ff5e5e;
+  margin-bottom: 30px;
+}
+
+.about-right h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.lugicon3 {
+  color: #00a3e0;
+  margin-bottom: 50px;
+}
+
+.written {
+  padding-top: 30px;
+}
+
+.feature {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.righticon {
+  width: 100px;
+  height: 60px;
+  background-color: #ff5c5c;
+  color: solid black;
+}
+
+.comlogo { 
+  display: flex;
+  gap: 90px;
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 200px;
+  height: 100px;
+}
+
+@media (max-width: 1440px) {
+  .header-top {
+    margin-left: 200px;
+  }
+
+  .icons {
+    margin-right: 200px;
+  }
+
+  .logo {
+    margin-left: 200px;
+  }
+
+  .buy-now {
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-top {
+    margin-left: 100px;
+    font-size: 12px;
+  }
+
+  .icons {
+    margin-right: 100px;
+  }
+
+  .logo {
+    margin-left: 100px;
+  }
+
+  .buy-now {
+    margin-right: 100px;
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .hero-text h1 {
+    font-size: 45px;
+  }
+
+  .formfill {
+    right: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .header-top,
+  .icons {
+    margin: 0;
+    justify-content: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-text {
+    position: static;
+    transform: none;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .formfill {
+    position: static;
+    margin: 20px auto;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn-red,
+  .btn-blue {
+    width: 100%;
+    text-align: center;
+  }
 }
