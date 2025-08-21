@@ -287,11 +287,11 @@ nav ul li ul li a:hover {
 .formfill {
   position: absolute;
   top: 30%;
-  right: 20%;
+  right: 21%;
   background-color: #0793b5;
   padding: 30px;
-  max-width: 300px;
-  height: fit-content;
+  max-width: 250px;
+  height: 450px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -302,10 +302,10 @@ nav ul li ul li a:hover {
 }
 
 .formfill input {
-  width: 86%;
-  padding: 20px;
+  width: 92%;
+  padding: 10px;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border: none;
   font-size: 14px;
 }
@@ -915,13 +915,6 @@ nav ul li ul li a:hover {
   padding: 60px 20px;
 }
 
-.dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #0d2c54;
-}
-
 .divider i {
   color: #0d2c54;
   font-size: 18px;
@@ -931,7 +924,7 @@ nav ul li ul li a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
-  max-width: 1100px;
+  max-width: 1150px;
   height: 400px;
   margin: 0 auto;
   padding-top: 50px;
@@ -974,6 +967,165 @@ nav ul li ul li a:hover {
 .blog-meta span {
   margin-right: 10px;
 }
+
+#actual {
+  background: url('Img/image.jfif') no-repeat center center/cover;
+  height: 30vh;
+  position: relative;
+  color: #fff;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+}
+
+.actual-content {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  padding: 0 100px;
+  margin-left: 280px;
+}
+
+.actual-content .left {
+  max-width: auto;
+}
+
+.actual-content h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.actual-content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.learnbtn {
+  display: inline-block;
+  background: #f35d52;
+  color: #fff;
+  padding: 12px 25px;
+  margin-right: 270px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s linear;
+}
+
+.learnbtn:hover {
+  background-color: #00a0c8;
+}
+
+footer {
+  background: #2f2f2f;
+  padding: 50px 8% 0;   
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-box {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-box h3 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border-left: 3px solid #00aaff;
+  padding-left: 8px;
+}
+
+.footer-box p, 
+.footer-box small,
+.footer-box a {
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+.footer-box img {
+  max-width: 100px;  
+  margin-right: 10px;
+}
+
+.footer-box i {
+  color: #ff6600;  
+  margin-right: 8px;
+  transition: color 0.3s;
+}
+.footer-box i:hover {
+  color: #00aaff;  
+}
+
+.footer-box a:hover {
+  color: #00aaff;
+}
+
+.footer-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+}
+
+.footer-box button {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  background: #f35d52;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s linear;
+}
+.footer-box button:hover {
+  background-color: #0073b1;
+}
+
+.footer-box .post-title {
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.footer-box .post-title:hover {
+  color: #00aaff;  
+}
+
+.bottom {
+  border-top: 1px solid #444;
+  margin-top: 30px;
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #404040;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.bottom .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
 
 @media (max-width: 1440px) {
   .header-top {
