@@ -973,9 +973,10 @@ nav ul li ul li a:hover {
   height: 30vh;
   position: relative;
   color: #fff;
+  margin-bottom: 40px; 
 }
 
-.overlay {
+#actual .overlay {
   width: 100%;
   height: 100%;
   background: rgba(0,0,0,0.5);
@@ -989,22 +990,22 @@ nav ul li ul li a:hover {
   align-items: center;
   width: 100%;
   padding: 0 100px;
-  margin-left: 280px;
 }
 
 .actual-content .left {
-  max-width: auto;
+  max-width: 100%;
 }
 
 .actual-content h1 {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 15px;
+  margin-left: 280px;
 }
 
 .actual-content p {
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 15px;
+  margin-left: 280px;
 }
 
 .learnbtn {
@@ -1012,9 +1013,9 @@ nav ul li ul li a:hover {
   background: #f35d52;
   color: #fff;
   padding: 12px 25px;
-  margin-right: 270px;
   text-decoration: none;
   font-weight: bold;
+  margin-right: 280px;
   transition: background-color 0.3s linear;
 }
 
@@ -1024,20 +1025,21 @@ nav ul li ul li a:hover {
 
 footer {
   background: #2f2f2f;
-  padding: 50px 8% 0;   
   color: #fff;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
+  gap: 20px;
   flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .footer-box {
   flex: 1;
-  min-width: 220px;
+  min-width: 200px;
 }
 
 .footer-box h3 {
@@ -1077,7 +1079,7 @@ footer {
 }
 
 .footer-box input {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   margin-bottom: 15px;
   border: none;
@@ -1108,186 +1110,119 @@ footer {
 }
 
 .bottom {
+  background: #1c1c1c;   
   border-top: 1px solid #444;
-  margin-top: 30px;
+  margin-top: 40px;
   padding: 20px 8%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #404040;
   color: #aaa;
   font-size: 14px;
+}
+
+.bottom a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.bottom a:hover {
+  color: #00aaff;
 }
 
 .bottom .logo {
   font-size: 20px;
   font-weight: bold;
   color: #fff;
-}
-
-
-
-@media (max-width: 1440px) {
-  .header-top {
-    margin-left: 200px;
-  }
-
-  .icons {
-    margin-right: 200px;
-  }
-
-  .logo {
-    margin-left: 200px;
-  }
-
-  .buy-now {
-    margin-right: 200px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .header-top {
-    margin-left: 100px;
-    font-size: 12px;
-  }
-
-  .icons {
-    margin-right: 100px;
-  }
-
-  .logo {
-    margin-left: 100px;
-  }
-
-  .buy-now {
-    margin-right: 100px;
-    font-size: 12px;
-    padding: 6px 12px;
-  }
-
-  .hero-text h1 {
-    font-size: 45px;
-  }
-
-  .formfill {
-    right: 10%;
-  }
+  margin-right: 500px;
 }
 
 @media (max-width: 768px) {
-  .header-container {
-    flex-direction: column;
-    text-align: center;
-    gap: 10px;
+  .hero-text h1 {
+    font-size: 40px;
   }
-
-  .header-top,
-  .icons {
-    margin: 0;
+  .sec1head {
+    font-size: 30px;
+  }
+  .card {
+    width: 100%;
+  }
+  .about-right h2 {
+    font-size: 30px;
+  }
+  .image-top {
+    margin-left: 0;
+    width: 90%;
+  }
+  .info-box {
+    position: relative;
+    left: auto;
+    top: auto;
+    margin: 20px auto;
+  }
+  .image-bottom1 img,
+  .image-bottom2 img {
+    position: relative;
+    margin: 10px auto;
+    display: block;
+  }
+  .travel-footer {
+    flex-direction: column;
+    font-size: 12px;
+    gap: 5px;
+  }
+  .packages-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  .team-container {
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
   }
-
-  nav ul {
-    flex-direction: column;
-    gap: 10px;
-    margin-right: 0;
-    text-align: center;
+  .team-card {
+    width: 45%;
   }
-
-  .logo {
-    margin: 0 auto;
-  }
-
-  .hero {
+  .blog-container {
     flex-direction: column;
     align-items: center;
   }
-
-  .hero-text {
-    position: static;
-    transform: none;
-    max-width: 90%;
+  .blog-card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .footer-container {
+    flex-direction: column;
     text-align: center;
   }
-
-  .formfill {
-    position: static;
-    margin: 20px auto;
-    max-width: 90%;
+  .bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
   }
 }
 
 @media (max-width: 576px) {
-   .hero-text h1 {
-    font-size: 32px;
-  }
-
-  .buttons {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .btn-red,
-  .btn-blue {
-    width: 100%;
-    text-align: center;
-  }
-
-  nav {
-    flex-direction: column;
-    gap: 15px;
-  }
-
   nav ul {
     flex-direction: column;
     gap: 10px;
+    text-align: center;
   }
-
-  .hero {
-    height: auto;
-    padding: 100px 15px 60px;
-  }
-
-  .hero h1 {
+  .hero-text h1 {
     font-size: 28px;
   }
-
-  .hero p {
-    font-size: 14px;
-  }
-
-  .formfill {
-    margin: 20px;
-    padding: 20px;
-  }
-
-  .blog-section {
-    padding: 40px 15px;
-  }
-
-  .blog-section h2 {
-    font-size: 24px;
-  }
-
-  .blog-container {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .blog-card img {
-    height: 180px;
-  }
-
-  .blog-content h3 {
-    font-size: 16px;
-  }
-
-  .blog-meta {
+  .btn-red, .btn-blue {
+    padding: 8px 12px;
     font-size: 12px;
   }
-
-  footer {
-    font-size: 14px;
-    padding: 15px 5px;
+  .formfill {
+    padding: 15px;
+    height: auto;
+  }
+  .packages-grid {
+    grid-template-columns: 1fr;
+  }
+  .team-card {
+    width: 90%;
   }
 }
